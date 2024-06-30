@@ -37,12 +37,12 @@ wss.on("connection", (ws) => {
 
 // Note:
 /*
- - We have added "type":"module" in package.json to enable ES module syntax.
- - We are using https://hoppscotch.io/realtime/websocket as our WebSocket client for testing.
+ - I have added "type":"module" in package.json to enable ES module syntax.
+ - I am using https://hoppscotch.io/realtime/websocket as our WebSocket client for testing.
  - To connect to the server using Hoppscotch, use the address "ws://localhost:8080".
  - The data received from the client will be in buffer form. To convert it to a string, use '%s' in the console log.
  - You can see the WebSocket connection by inspecting the Network tab in your browser's developer tools and looking under the 'WS' (WebSocket) section.
- - Although we are using Hoppscotch for testing, we can also create a client (frontend) and use the WebSocket browser API to communicate with the server, similar to how we use the Fetch API for HTTP requests.
+ - Although I am using Hoppscotch for testing, you can also create a client (frontend) and use the WebSocket browser API to communicate with the server, similar to how we use the Fetch API for HTTP requests.
   - Add "type": "module" to your package.json:
   {
   "name": "websocket-server",
